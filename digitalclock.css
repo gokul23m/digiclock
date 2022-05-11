@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: center;
+    min-height: 100vh;
+    background-color: #2f363e;
+}
+#time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 50px;
+    font-size: large;
+    color: white;
+}
+#time .circle{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#time div{
+    position: absolute;
+    text-align: center ;
+}
+#time svg circle{
+    fill: transparent ;
+    stroke: #191919;
+    stroke-width: 4px;
+}
